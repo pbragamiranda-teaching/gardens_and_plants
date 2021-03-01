@@ -40,6 +40,25 @@
   grid-gap: 16px;
 }
 
+.card-tags {
+  position: absolute;
+  width: 80%;
+  padding: 8px;
+
+  span {
+    background: $blue;
+    font-size: .7em;
+    padding: 2px 4px;
+    border-radius: 3px;
+    margin-right: 4px;
+  }
+
+  a {
+    color: white;
+  }
+}
+
+
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {
